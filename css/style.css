@@ -1,1 +1,47 @@
-test 1
+body{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+
+
+
+.header {
+	background:#000;
+	color:#fff;
+	font-size: 40px;
+	text-align: center;
+	padding: 30px 0;
+}
+
+
+
+.navigation{
+	background: #0ca2af;
+	color: #DDD;
+	text-align: center;	
+	font-size: 30px;
+}
+
+
+
+ul{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+
+
+
+ul li{
+	display: inline-block;
+	padding: 15px;
+}
+
+
+
+.content{
+	text-align: center;
+	padding: 20px;
+	font-size: 25px;
+}
