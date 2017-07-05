@@ -20,3 +20,8 @@ https://codepen.io/MightyShaban/pen/CIfdj
 Batman nav. - CodePen
 codepen.io
 Adding Classes. In CodePen, whatever you write in the HTML editor is what goes within the tags in a basic HTML5 template. So you don't have access to higher-up ...
+
+https://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_pills_dynamic&stacked=h
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_tabs&stacked=h
+https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_tabs_dynamic&stacked=h
