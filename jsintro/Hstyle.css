@@ -1,0 +1,124 @@
+@font-face: {
+	font-family:mine;
+src: url('fonts/Cairo-Bold.ttf')}
+body{
+	padding: 0;
+	margin:0;
+	background-color: #ebebeb;
+	direction: rtl;
+}
+.container{
+	
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container .header{
+	background-color: #ccc ;
+	height:100px;
+	padding: 10px;
+}
+
+.container .header h1{
+	float: right;
+	padding: 5px;
+	margin: 20px;
+	font-size: 40px;
+	color: #133471;
+
+}
+.container .header .logo{
+	height: 100px;
+	width: 263px;
+	float: left;
+}
+.container .nav{
+    background: #444;
+    height: 50px;
+    margin: 0;
+    text-align: left;
+    padding: 0 10px;
+}
+.container .nav li{
+    list-style: none;
+    color: #ededed;
+    display: inline-block;
+    padding: 15px;
+    height: 20px;
+    float: left;
+}
+
+.container .nav li:hover, .container .nav li.active{
+	background-color: #222;
+}
+
+.container .nav li.active{
+	background-color: #222;
+}
+.container .nav li:hover a, .container .nav li.active a{
+	color: #fff;
+}
+
+.container .nav li a{
+	text-decoration: none;
+	color: #ededed;
+}
+.sidebar{
+	height:100%;
+}
+.container .sidebar{
+	width: 15%;
+	float: left;
+    border-right: 2px solid #222; 
+}
+
+
+.container .sidebar .menu{
+
+	margin: 0;
+    text-align: left;
+    padding: 0;
+    overflow: auto;
+    height: 570px;
+}
+.container .sidebar .menu li{
+
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    margin: 7px 0;
+}
+
+.container .sidebar .menu li:hover, .container .sidebar .menu li.active{
+	background: #222;
+}
+
+.container .sidebar .menu li:hover a, .container .sidebar .menu li.active a{
+	color: #ededed;
+}
+
+.container .sidebar .menu li a{
+
+    text-decoration: none;
+    color: #133471;
+}
+
+
+.container .content{
+	width: 83%;
+	padding: 10px;
+	min-height: 550px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.container .footer{
+	border-top: 2px solid #222;
+	height: 50px;
+	background: #222; 
+}
