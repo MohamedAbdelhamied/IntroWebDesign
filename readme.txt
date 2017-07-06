@@ -25,3 +25,11 @@ https://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp
 https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_pills_dynamic&stacked=h
 https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_tabs&stacked=h
 https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_tabs_dynamic&stacked=h
+
+
+
+https://www.w3schools.com/howto/howto_html_include.asp
+
+https://www.w3schools.com/css/css_rwd_intro.asp
+
+https://www.w3schools.com/w3js/default.asp
