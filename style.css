@@ -92,7 +92,8 @@ body{height: 100%;}
 }
 
 .content{
-	width: 83%;
+	box-sizing:border-box;
+	width: 82%;
 	padding: 10px;
 	min-height: 550px;
 	float: right;
