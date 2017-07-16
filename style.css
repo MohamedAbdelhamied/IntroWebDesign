@@ -1,7 +1,7 @@
 /* start main rulez */
 body{height: 100%;}
 
-.container{width: 100%;margin: auto;}
+.container{width: 1170px;margin: auto;}
 /* end main rulez */
 
 
@@ -52,13 +52,12 @@ body{height: 100%;}
 /*start sidebar*/
 
 .sidebar{
-
 	width: 15%;
 	float: left;
     border-right: 2px solid #222; 
 }
 .sidebar .menu{
-	width:100%;
+
 	margin: 0;
     text-align: left;
     padding: 0;
@@ -71,7 +70,7 @@ body{height: 100%;}
     padding: 10px;
     list-style: none;
     text-transform:uppercase;
-    margin-left: 1%;
+    margin-left: 65px;
     text-align: center;
     font-size: 20px;
 
@@ -92,11 +91,10 @@ body{height: 100%;}
 }
 
 .content{
-	box-sizing:border-box;
-	width: 82%;
+	width: 83%;
 	padding: 10px;
 	min-height: 550px;
-	float: right;
+	float: left;
 }
 
 .clear{
