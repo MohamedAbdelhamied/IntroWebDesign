@@ -7,7 +7,7 @@
          <link rel="stylesheet" href="normalize.css">
 <script type="text/javascript" src="w3.js"></script>
         <script type="text/javascript">
-            function() {
+           function currentNav() {
     var nav = document.getElementById('nav'),
         anchor = nav.getElementsByTagName('a'),
         current = window.location.pathname.split('/')[1];
@@ -21,6 +21,10 @@
         </head>
         
 <body>
+<script>
+currentNav();
+</script>
+    
     <div w3-include-html="include/header.html"></div>
 <!-- End of Header which included in all pages -->
 
