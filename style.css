@@ -54,6 +54,7 @@ body{height: 100%;}
 .sidebar{
 	width: 15%;
 	float: left;
+	overflow:scroll;
     border-right: 2px solid #222; 
 }
 .sidebar .menu{
@@ -61,7 +62,6 @@ body{height: 100%;}
 	margin: 0;
     text-align: left;
     padding: 0;
-    overflow:hidden;
     height: 570px;
     float: left;
 }
