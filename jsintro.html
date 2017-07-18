@@ -12,6 +12,7 @@
         <style>
             /* to style the panel of each lesson*/
             .lesson{
+                padding:10%;
                 width:80%;
                 background:black;
             }
@@ -63,13 +64,16 @@ click on link open the corresponsing tab or panel  -->
         </ul>
 </div>
 <!-- End sidebar -->
-
+<script type="text/javascript">
+    function path(){       
+    var pathname = window.location.pathname;
+        log.console(pathname);
+    }
+        </script>
+        <button onclick="path();">try this</button>
 <!-- Beginning of Content which will be different of each lesson -->
 <div class="content">
-    <script type="text/javascript">
-           var pathname = window.location.pathname;
-        log.console(pathname);
-        </script>
+    
     <div class="lesson" id="lesson1"></div>
     <div class="lesson" id="lesson2"></div>
     <div class="lesson" id="lesson3"></div>
