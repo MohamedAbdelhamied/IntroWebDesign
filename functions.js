@@ -1,4 +1,4 @@
-w3.hide('.lesson');
+
 function path(){       
     var pathname = window.location.pathname;
         arr=pathname.split('/');
@@ -28,8 +28,7 @@ function path(){
         }
     }
 function lesson(num){
- var current = document.getElementById("lesson + num");
  w3.hide('.lesson');
- w3.show(current); 
+ w3.show('#lesson + num'); 
 }
     
