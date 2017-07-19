@@ -28,7 +28,7 @@ function path(){
         }
     }
 function lesson(num){
- var current = document.getElementById('lesson'+num);
+ var current = document.getElementById("lesson + num");
  w3.hide('.lesson');
  w3.show(current); 
 }
