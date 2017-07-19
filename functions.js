@@ -25,6 +25,5 @@
                 w3.addClass('#home','active');
         }
         }
-                window.alert(pathname);
     }
     
