@@ -26,4 +26,9 @@
         }
         }
     }
+function lesson(num){
+ var current = getElementById('lesson'+num);
+ w3.hide('.lesson');
+ w3.show(current); 
+}
     
