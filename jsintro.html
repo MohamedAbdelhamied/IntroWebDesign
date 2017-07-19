@@ -23,13 +23,13 @@
         
 <body>
     
-    <div w3-include-html="include/header.html" onload="path();"></div>
+    <div w3-include-html="include/header.html"></div>
 <!-- End of Header which included in all pages -->
 
 <!-- Beginning of Side menu which will be different of each lesson
 Hint this can be amazing if we can do it as panel for each section of the lesson if the person
 click on link open the corresponsing tab or panel  -->
-    <div id="container">
+    <div id="container" onload="path();">
     <div class="sidebar">
         <ul class="menu">
             <li><a href="#lesson1">simple intro</a></li>
