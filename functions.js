@@ -2,6 +2,11 @@
 function path(){       
     var pathname = window.location.pathname;
         arr=pathname.split('/');
+    if (pathname  == '/IntroWebDesign')
+    {
+        w3.addClass('#home','active')
+    }
+    else{
         for(var i=0;i<arr.length;i++)
         {
         switch (arr[i])
@@ -26,6 +31,7 @@ function path(){
                 w3.addClass('#home','active');
         }
         }
+    }
     }
 function lesson(num){
  w3.hide('.lesson');
