@@ -2,9 +2,10 @@
 function path(){       
     var pathname = window.location.pathname;
         arr=pathname.split('/');
+    window.alert(pathname);
     if (pathname  == '/IntroWebDesign')
     {
-        w3.addClass('#home','active')
+        w3.addClass('#home','active');
     }
     else{
         for(var i=0;i<arr.length;i++)
