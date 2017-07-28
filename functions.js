@@ -5,7 +5,7 @@ function path(){
    
     if (arr[2]=="")
     {
-        arr.push('2');
+     
         w3.addClass('#home','active');
     }
     else{
@@ -35,10 +35,11 @@ function path(){
         }
         
     }
-    window.alert(arr); 
+     
     }
 function lesson(num){
  w3.hide('.lesson');
- w3.show('#lesson + num'); 
+ w3.show('#lesson + num');
+    window.alert('#lesson + num');
 }
     
