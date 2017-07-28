@@ -2,9 +2,10 @@
 function path(){       
     var pathname = window.location.pathname;
         arr=pathname.split('/');
-    window.alert(arr);
+   
     if (arr[2]==="")
     {
+        arr.push('2');
         w3.addClass('#home','active');
     }
     else{
@@ -32,6 +33,7 @@ function path(){
                 w3.addClass('#home','active');
         }
         }
+        window.alert(arr); 
     }
     }
 function lesson(num){
