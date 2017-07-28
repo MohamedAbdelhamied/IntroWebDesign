@@ -39,7 +39,7 @@ function path(){
     }
 function lesson(num){
  w3.hide('.lesson');
- w3.show('#lesson + num');
+ getElementById('#lesson'+num).style.display='none';
     window.alert('#lesson + num');
 }
     
