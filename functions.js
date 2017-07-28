@@ -3,7 +3,7 @@ function path(){
     var pathname = window.location.pathname;
         arr=pathname.split('/');
     window.alert(arr);
-    if (arr.length==1)
+    if (arr[2]==="")
     {
         w3.addClass('#home','active');
     }
